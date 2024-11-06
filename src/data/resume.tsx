@@ -65,7 +65,7 @@ Let’s build something exceptional together!`,
       },
       resume: {
         name: "Download Resume",
-        url: "https://wa.me/+918767431997",
+        url: "https://drive.google.com/file/d/16hw045coR2NOhL9gVCRjN7YIqe7eV1v6/view?usp=sharing",
         icon: Icons.googleDrive,
         navbar: true,
       },

@@ -26,6 +26,11 @@ export const metadata: Metadata = {
     siteName: `${DATA.name}`,
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/me.webp",
+      },
+    ],
   },
   robots: {
     index: true,
@@ -45,6 +50,9 @@ export const metadata: Metadata = {
   verification: {
     google: "",
     yandex: "",
+  },
+  icons: {
+    icon: "/me.webp",
   },
 };
 
