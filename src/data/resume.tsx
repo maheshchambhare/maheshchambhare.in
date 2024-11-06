@@ -2,200 +2,179 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
-  initials: "DV",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  name: "Mahesh Chambhare",
+  initials: "MC",
+  url: "https://maheshchambhare.in",
+  location: "Surat, India",
+  locationLink: "https://www.google.com/maps/place/surat",
   description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
-  summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/me.png",
+    "Frontend Developer with 3+ Years of Experience | Transforming Ideas into Engaging Web & Mobile Experiences 🚀",
+  summary: `Hi, I’m Mahesh Chambhare! With over three years of hands-on experience, I specialize in crafting visually stunning and user-centric web and mobile applications that make an impact. My passion lies in bringing concepts to life with sleek interfaces and seamless functionality. I’m proficient in the latest frontend technologies and best practices, ensuring every project is modern, fast, and intuitive. Whether you need to elevate your brand's digital presence or build a new product from scratch, I’m here to make it happen.
+
+Let’s build something exceptional together!`,
+  avatarUrl: "/me.webp",
   skills: [
     "React",
+    "React Native",
     "Next.js",
     "Typescript",
+    "Tailwind Css",
     "Node.js",
-    "Python",
-    "Go",
     "Postgres",
-    "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
+    "AWS",
+    "Supabase",
+    "Firebase",
+    "Redux",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "chambharem1@gmail.com",
+    tel: "+918767431997",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/maheshchambhare",
         icon: Icons.github,
-
-        navbar: true,
+        navbar: false,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/maheshchambhare/",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/maheshchambhare",
         icon: Icons.x,
+        navbar: true,
+      },
 
-        navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
-        navbar: true,
-      },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:chambharem1@gmail.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
+      },
+      whatsapp: {
+        name: "Message",
+        url: "https://wa.me/+918767431997",
+        icon: Icons.whatsapp,
+        navbar: true,
+      },
+      resume: {
+        name: "Download Resume",
+        url: "https://wa.me/+918767431997",
+        icon: Icons.googleDrive,
+        navbar: true,
       },
     },
   },
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Oneboard",
+      href: "https://oneboard.app/",
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
-      description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+      location: "Goa (Remote)",
+      title: "Senior Frontend Developer",
+      logoUrl: "/oneboard.webp",
+      start: "Dec 2022",
+      end: "Mar 2024",
+      description: (
+        <ul>
+          <li>
+            <b>● Led Intern Training and Project Development:</b> Mentored two
+            interns in Next.js, React.js, and Tailwind CSS, guiding them through
+            the complete development lifecycle of an onboarding website from
+            scratch.
+          </li>
+          <li>
+            <b>● Improved Website Performance:</b> Implemented lazy loading
+            techniques and other optimizations, increasing the website
+            performance score from 30 to 95 for desktop and 85 for mobile,
+            resulting in a faster and more efficient user experience.
+          </li>
+          <li>
+            <b>● Optimized Image Handling: </b>Suggested and implemented image
+            optimization methods by converting images to WebP format and
+            applying compression techniques, reducing image sizes from 2-3 MB to
+            50-300 KB, further enhancing website performance.
+          </li>
+        </ul>
+      ),
     },
     {
-      company: "Shopify",
+      company: "Wiztech Labs",
       badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+      href: "https://wiztechlabs.com/",
+      location: "Surat",
+      title: "Frontend Developer",
+      logoUrl: "/wiztech.webp",
+      start: "Sep 2021",
+      end: "Dec 2022",
+      description: (
+        <ul>
+          <li>
+            <b>● Developed and Published Mobile Apps: </b> Built high-quality
+            mobile applications using React Native for iOS and Android, and
+            managed their successful publication on the Apple App Store and
+            Google Play Store.
+          </li>
+          <li>
+            <b>● Created Responsive Websites</b> Designed and developed
+            responsive websites, utilizing modern web technologies to meet
+            diverse client needs and deliver exceptional user interfaces.
+          </li>
+          <li>
+            <b>● Maintained Client Satisfaction: </b>Achieved a high level of
+            client satisfaction by effectively communicating with clients,
+            understanding their requirements, and providing solutions that
+            exceeded their expectations. This contributed to repeat business and
+            positive client referrals
+          </li>
+        </ul>
+      ),
     },
     {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
+      company: "Unikwork",
+      href: "https://unikwork.com/",
       badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
-      description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+      location: "Surat",
+      title: "React Native Internship",
+      logoUrl: "/unikwork.webp",
+      start: "Jul 2021",
+      end: "Aug 2021",
     },
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
+      school: "Sant Gadge Baba Amravati University",
+      href: "http://www.sgbau.ac.in/",
+      degree: "Master of Computer Applications - MCA",
+      logoUrl: "/mca.webp",
+      start: "2018",
+      end: "2020",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
+      school: "Shankarlal Khandelwal College Akola",
+      href: "https://khandelwalcollege.edu.in/",
+      degree: "Bachelor Of Computer Application - BCA",
+      logoUrl: "/bca.webp",
+      start: "2015",
+      end: "2018",
     },
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "OneBoard",
+      href: "https://oneboard.app/",
+      dates: "Dec 2022 - Mar 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
+        "Curated for couch potatoes, explorers, and weekend travellers, OneBoard’s list of authentic experiences is put together to help you discover parts of Goa that remain infamous. With our inter-connected experience ecosystem, you can create a highly personalised tour, attend a local workshop or find cool new things to do. Your search ends with OneBoard",
+      technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
       links: [
         {
           type: "Website",
@@ -203,103 +182,99 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      image: "/oneboardproject.webp",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
+      title: "Appointify",
+      href: "https://appointify.in/",
+      dates: "Mar 2024 - June 2024",
+      active: true,
+      description:
+        "Appointify is the ultimate solution for businesses to seamlessly manage appointments and tickets online. Say goodbye to scheduling headaches and hello to a more organized and efficient way of running your business.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Postgres",
+        "prisma",
+        "aws",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://appointify.in",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/appointify.webp",
+    },
+
+    {
+      title: "Indiaport",
+      href: "https://play.google.com/store/apps/details?id=com.indianportapp&hl=en_IN&gl=US",
+      dates: "Sep 2021 - Nov 2021",
+      active: true,
+      description: `IndiaPort, the very first export-import & logistic application solely for updates.
+Being part of EximEducation, Indiaport is determined towards the growth of the nation.
+IndiaPort believes in EximEducations’ motto; ‘Making India the World’s Factory’
+One cannot just be a successful exporter if s/he doesn’t know the market and changes made by the government.`,
+      technologies: ["React Native", "Firebase", "Redux"],
+      links: [
+        {
+          type: "App",
+          href: "https://play.google.com/store/apps/details?id=com.indianportapp&hl=en_IN&gl=US",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/indiaport.webp",
+    },
+    {
+      title: "Vimal Power",
+      href: "https://play.google.com/store/apps/details?id=com.indianportapp&hl=en_IN&gl=US",
+      dates: "Dec 2021 - Feb 2022",
+      active: true,
+      description: `VimalPower is a streamlined B2B sales app for the electronics industry, designed to simplify bulk ordering for businesses. With VimalPower, companies can easily browse products, place large orders, and manage transactions all in one place. This app optimizes the order process, making it faster and more efficient for businesses to stock up on essential electronics.`,
+      technologies: ["React Native", "Firebase", "Redux"],
+
+      image: "/vimalpower.webp",
+    },
+    {
+      title: "Knowyoursnack",
+      dates: "Aug 2024",
+      active: true,
+      description: `KnowYourSnack is your personal guide to understanding snack ingredients. Simply snap a photo of the ingredients list on any snack package, and our AI-powered app will identify harmful substances, provide detailed information, and help you make healthier choices.`,
+      technologies: [
+        "Next Js",
+        "Typescript",
+        "TailwindCSS",
+        "Supabase",
+        "Gemini Ai",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.knowyoursnack.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+
+      image: "/knowyoursnack.webp",
+    },
+    {
+      title: "B2B Exporter",
+
       dates: "June 2023 - Present",
       active: true,
-      description:
-        "Designed, developed and sold animated UI components for developers.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
-    {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      description: `Project description. B2B website for exporters, With this website exporters can go digital and get their clients, Here i was responsible for building frontend side of this project,
+How this website help exporters
+1) Exporters now can go digital and market themselves
+2) Design like ecom sites where exporters clients can see what products that they are exporting and also can order
+3) Exporter can change color of theme from Dashboard , and it will reflect in frontend website
+and more..`,
+      technologies: ["React Js", "Typescript", "TailwindCSS"],
+
+      image: "/b2bexporters.webp",
     },
   ],
   hackathons: [
