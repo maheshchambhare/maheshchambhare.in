@@ -65,7 +65,7 @@ Let’s build something exceptional together!`,
       },
       resume: {
         name: "Download Resume",
-        url: "https://drive.google.com/file/d/16hw045coR2NOhL9gVCRjN7YIqe7eV1v6/view?usp=sharing",
+        url: "https://docs.google.com/document/d/1AQJ5BWECb3KxMMxtpC0p_0nilDRZsxP3/edit?usp=sharing&ouid=113918340036709473921&rtpof=true&sd=true",
         icon: Icons.googleDrive,
         navbar: true,
       },
